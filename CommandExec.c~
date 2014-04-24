@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[])
+{
+	printf("%d\n",cmd_system("uname -r"));
+    getchar();
+    return 0;
+}
+
+char* cmd_system(const char* command)
+{
+    char* result = "";
+    FILE *fpRead;
+    fpRead = popen(command, "r");
+    char buf[1024];
+    memset(buf,'\0',sizeof(buf));
+    while(fgets(buf,1024-1,fpRead)!=NULL)
+    {
+        result = buf;
+    }
+    if(fpRead!=NULL)
+       pclose(fpRead);
+    return result;
+}
