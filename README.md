@@ -5,7 +5,7 @@ Multipoint uses the XWindow interface and MPX library to create a standard Multi
 
 Ciao! :D
 
-----x--------x--------x--------x--------x--------x--------x--------x--------x--------x--------x--------x--------x--------x--------x--------x-----
+----x--------x--------x--------x--------x--------x--------x--------x--------x--------x--------x--------x--------x--------x----
 
 Instructions:
 
@@ -17,7 +17,7 @@ Instructions:
 
 4. To close, simply press Ctrl+C. The program automatically joins all the extra pointers into one.
 
-----x--------x--------x--------x--------x--------x--------x--------x--------x--------x--------x--------x--------x--------x--------x--------x-----
+----x--------x--------x--------x--------x--------x--------x--------x--------x--------x--------x--------x--------x--------x----
 
 PS#1: For some mouses with multiple radio devices and transreceivers, there can be a possiblity of mutiple pointers for one device. Allow for the program to refresh for about 1 minute.
 
